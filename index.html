@@ -3,6 +3,7 @@
 
 <head>
     <title>Andreas Haessler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
@@ -18,6 +19,7 @@
         <section id="about-me">
             <h3>About me</h3>
             <ul class="no-decorations">
+                <!-- TODO: Flexbox this to fix padding on line wrap -->
                 <li><i class="material-icons">perm_contact_calendar</i><strong>Age:</strong> 16</li>
                 <li><i class="material-icons">location_on</i><strong>Location:</strong> <a href="https://goo.gl/maps/EkSr67ub7vj">Vienna, Austria</a></li>
                 <li><i class="material-icons">beach_access</i><strong>Interests:</strong> Software architecture, UX/UI-Design, Running, Skiing</li>
@@ -31,72 +33,74 @@
         </section>
         <section id="skills">
             <h3>Skills</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>JVM</th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Java</td>
-                        <td>3 years of practical experience</td>
-                        <td>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Maven</td>
-                        <td>2 years of practical experience</td>
-                        <td>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star_border</i>
-                            <i class="material-icons">star_border</i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Kotlin</td>
-                        <td>1 year of heavy usage</td>
-                        <td>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star_border</i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>JAX-RS</td>
-                        <td>Used in several projects</td>
-                        <td>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star_half</i>
-                            <i class="material-icons">star_border</i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>JPA</td>
-                        <td>Basic usage</td>
-                        <td>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star_border</i>
-                            <i class="material-icons">star_border</i>
-                            <i class="material-icons">star_border</i>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="responsive-table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>JVM</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Java</td>
+                            <td>3 years of practical experience</td>
+                            <td>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Maven</td>
+                            <td>2 years of practical experience</td>
+                            <td>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_border</i>
+                                <i class="material-icons">star_border</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kotlin</td>
+                            <td>1 year of heavy usage</td>
+                            <td>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_border</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>JAX-RS</td>
+                            <td>Used in several projects</td>
+                            <td>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_half</i>
+                                <i class="material-icons">star_border</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>JPA</td>
+                            <td>Basic usage</td>
+                            <td>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_border</i>
+                                <i class="material-icons">star_border</i>
+                                <i class="material-icons">star_border</i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         <section id="portfolio">
             <h3>Portfolio</h3>
