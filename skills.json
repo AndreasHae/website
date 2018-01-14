@@ -1,0 +1,36 @@
+{
+    "JVM": [
+        {
+            "name": "Java",
+            "note": "3 years of practical experience",
+            "stars": 5
+        },
+        {
+            "name": "Maven",
+            "note": "2 years of practical experience",
+            "stars": 3
+        },
+        {
+            "name": "Kotlin",
+            "note": "1 year of heavy usage",
+            "stars": 4
+        },
+        {
+            "name": "JAX-RS",
+            "note": "Used in several personal projects",
+            "stars": 3.5
+        },
+        {
+            "name": "JPA",
+            "note": "Basic usage",
+            "stars": 2
+        }
+    ],
+    ".NET": [
+        {
+            "name": "C#",
+            "note": "2 years of practical experience",
+            "stars": 4
+        }
+    ]
+}
